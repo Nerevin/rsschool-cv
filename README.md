@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Nerevin.github.io/rsschool-cv/cv
