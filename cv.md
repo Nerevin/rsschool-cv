@@ -1,8 +1,8 @@
 # Ilia Kazakov 
 ## Contact Info: 
 
-**Phone number:** 89379901127   
-**Email:** kazak.redalerd@gmail.com 
+**Phone number:** 89379901127  
+**Email:** kazak.redalerd@gmail.com  
 **Discord:** Nerevin#8529   
 **GitHub:** https://github.com/Nerevin  
 3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
