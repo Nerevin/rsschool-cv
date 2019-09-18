@@ -45,39 +45,39 @@
                 </ul>
                 <p>
                     <code>
-                    import javax.swing.*;
-                    import java.awt.*;
-                    import java.awt.event.*;
+                    import javax.swing.*;<br>
+                    import java.awt.*;<br>
+                    import java.awt.event.*;<br><br>
 
-                    public class Grafon {
-                    static String a;
-                    JLabel text = new JLabel("Здесь будет умная надпись", SwingConstants.CENTER);
-                    public void mainFrame(){
-                    JFrame frame = new JFrame("Мудрости каждый день");
-                    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                    JButton tip = new JButton("Получить совет");
-                    tip.addActionListener(new Tip());
-                    JButton kama = new JButton("Спросить Каму");
-                    kama.addActionListener(new Kama());
+                    public class Grafon {<br>
+                    static String a;<br>
+                    JLabel text = new JLabel("Здесь будет умная надпись", SwingConstants.CENTER);<br>
+                    public void mainFrame(){<br>
+                    JFrame frame = new JFrame("Мудрости каждый день");<br>
+                    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);<br>
+                    JButton tip = new JButton("Получить совет");<br>
+                    tip.addActionListener(new Tip());<br>
+                    JButton kama = new JButton("Спросить Каму");<br>
+                    kama.addActionListener(new Kama());<br><br>
 
-                    frame.getContentPane().add(BorderLayout.SOUTH, tip);
-                    frame.getContentPane().add(BorderLayout.NORTH, kama);
-                    frame.getContentPane().add(BorderLayout.CENTER, text);
-                    frame.setSize(400, 200);
-                    frame.setVisible(true);
-                    }
-                    class Tip implements ActionListener {
-                    public void actionPerformed(ActionEvent e) {
-                    FileRead.tipReader();
-                    text.setText(a);
-                    }
-                }   
-                    class Kama implements ActionListener {
-                    public void actionPerformed(ActionEvent e) {
-                    FileRead.kamaReader();
-                    text.setText(a);
-                    }
-                }
+                    frame.getContentPane().add(BorderLayout.SOUTH, tip);<br>
+                    frame.getContentPane().add(BorderLayout.NORTH, kama);<br>
+                    frame.getContentPane().add(BorderLayout.CENTER, text);<br>
+                    frame.setSize(400, 200);<br>
+                    frame.setVisible(true);<br>
+                    }<br>
+                    class Tip implements ActionListener {<br>
+                    public void actionPerformed(ActionEvent e) {<br>
+                    FileRead.tipReader();<br>
+                    text.setText(a);<br>
+                    }<br>
+                }   <br>
+                    class Kama implements ActionListener {<br>
+                    public void actionPerformed(ActionEvent e) {<br>
+                    FileRead.kamaReader();<br>
+                    text.setText(a);<br>
+                    }<br>
+                }<br>
             }
                     </code>
             </p>
