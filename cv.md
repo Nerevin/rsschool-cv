@@ -14,9 +14,9 @@
   
 ## Skills:
   * HTML, CSS base
-  * Java(begginer)
+  * Java(beginner)
   * SQL
-  * GIT (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
+  * GIT
     
 ``` Java
 import javax.swing.*;
