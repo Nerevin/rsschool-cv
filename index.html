@@ -3,13 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Resume</title>
-        <link rel="stylesheet" href="/resume.css">
+        <link rel="stylesheet" href="resume.css">
     </head>
     <body>
         <header>
-            <h1>Ilia Kazakov</h1>
+            <div>
+                <img class="photo" src="img/photo.jpg" alt="Photo" width="150px" height="150px" />
+                <h1>Ilia Kazakov</h1>
+            </div>
             <nav>
-                <ul>
+                <ul class="contactList">
                     <li><a href="#contactInfo">Contact Info</a></li>
                     <li><a href="#aboutMe">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -43,7 +46,8 @@
                     <li>SQL</li>
                     <li>GIT</li>
                 </ul>
-                <p>
+                <details>
+                    <summary>Code example</summary>
                     <code>
                     import javax.swing.*;<br>
                     import java.awt.*;<br>
@@ -80,7 +84,7 @@
                 }<br>
             }
                     </code>
-            </p>
+                </details>
             </article>
             <article id="experience">
                 <h2>Experience:</h2>
