@@ -1,0 +1,41 @@
+html{
+    background-color:white;
+}
+
+body {
+    margin: 0 auto;
+
+    width: 1024px;
+
+    background-color: #f2f2f2;
+}
+
+.contactList ul {
+    list-style-type: none;
+}
+
+div {
+    text-align: center;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+
+    border: 2px solid black;
+    border-radius: 100px;
+} 
+
+.contactList {
+    text-align: center;
+}
+
+.contactList li {
+    display: inline-block;
+
+    margin: 15px;
+    padding: 5px;
+    
+    border: 1px dotted black; 
+    border-radius: 5px;
+}
